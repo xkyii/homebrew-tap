@@ -7,5 +7,5 @@ cask 'ftnn' do
   homepage 'https://www.futunn.com'
   license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
-  app 'FTNN.app'
+  app 'FuTuNiuniu.app'
 end
