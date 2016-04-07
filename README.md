@@ -8,7 +8,7 @@ My personal homebrew tap
 
 ###Tap
 
-	brew tap winkelsdorf/custom
+	brew tap vkyii/homebrew
 
 ###Installation
 
