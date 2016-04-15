@@ -8,7 +8,8 @@ class Anyenv < Formula
   version "ecfc10c"
 
   def install
-    inreplace "libexec/anyenv", %Q|ANYENV_ROOT="${HOME}/.anyenv"|, %Q|ANYENV_ROOT="#{prefix}"|
+    # inreplace "libexec/anyenv", %Q|ANYENV_ROOT="${HOME}/.anyenv"|, %Q|ANYENV_ROOT="#{prefix}"|
+    inreplace "libexec/anyenv-install", %Q|${ANYENV_ROOT}/share|, %Q|#{prefix}/share|
     prefix.install Dir["*"]
   end
 
