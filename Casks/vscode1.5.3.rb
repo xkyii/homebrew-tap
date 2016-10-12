@@ -1,4 +1,4 @@
-cask 'visual-studio-code' do
+cask 'vscode1.5.3' do
   version '1.5.3,5be4091987a98e3870d89d630eb87be6d9bafd27'
   sha256 '78993c1bb27b76d2bd60c01f85b8b5f297bb8671a1c2799d7ab678b9841d20e1'
 
